@@ -39,7 +39,7 @@ function App() {
 
         <Routes location={location} key={location.key}>
 
-          <Route path='/framer-motion' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/base' element={<Base pizza={pizza} addBase={addBase} />} />
           <Route path='/toppings' element={<Toppings pizza={pizza} addTopping={addTopping} />} />
           <Route path='/order' element={<Order pizza={pizza} setShowModal={setShowModal} />} />

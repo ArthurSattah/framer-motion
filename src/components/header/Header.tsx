@@ -17,7 +17,7 @@ const Header = () => {
                 transition={{ type: "spring", delay: 0.2, stiffness: 120 }}
 
             >
-                <Link to="/framer-motion" className={styles.title}>
+                <Link to="/" className={styles.title}>
                     Pizza Joint
                 </Link>
             </motion.div>
